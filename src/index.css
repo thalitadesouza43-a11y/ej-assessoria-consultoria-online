@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-ej-canvas: #060807;
+  --color-ej-surface: #0D110F;
+  --color-ej-curtain: #090C0A;
+  --color-ej-green: #0FA34E;
+  --color-ej-green-light: #1AC966;
+  --color-ej-green-deep: #00592C;
+}
+
+@layer base {
+  html {
+    background-color: #060807;
+    color: #F5F7F6;
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}

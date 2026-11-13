@@ -1,0 +1,6 @@
+{
+  "name": "EJ Assessoria — Consultoria Online",
+  "description": "Consultoria online e treinamento físico personalizado da EJ Assessoria para Emagrecimento, Hipertrofia, Rejuvenescimento funcional e Qualidade de vida.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
